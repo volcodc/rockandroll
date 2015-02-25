@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import songs from '../mixins/songs';
 
 var Band = Ember.Object.extend({
 	name: '',
